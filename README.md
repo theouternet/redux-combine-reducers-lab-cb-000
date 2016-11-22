@@ -45,7 +45,7 @@ We'll start by determining what our application state object will look like:
   recommendedBooks: //array of favorite books
 }
 ```
-So our state object will have two twop-level keys, each pointing to an array of books. Because we have two top-level keys in our state object, we'll need two reducers. For simplicity, let's gives these functions the same name as our keys. This means the object that we'll pass into our `combineReducers` function will look like this:
+So our state object will have two top-level keys, each pointing to an array of books. Because we have two top-level keys in our state object, we'll need two reducers. For simplicity, let's gives these functions the same name as our keys. This means the object that we'll pass into our `combineReducers` function will look like this:
 
 ```javascript
 {
