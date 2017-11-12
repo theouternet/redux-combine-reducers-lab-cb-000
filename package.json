@@ -3,10 +3,6 @@
   "name": "redux-combine-reducers-lab",
   "version": "0.1.0",
   "description": "Learn about combine reducers",
-  "engines": {
-    "node": "6.x",
-    "npm": "3.x"
-  },
   "main": "src/index.js",
   "scripts": {
     "debug": "node-debug --hidden node_modules _mocha --watch",
